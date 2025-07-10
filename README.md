@@ -1,4 +1,4 @@
-# 🧰 Obsidian Plugin Workshop
+#  Obsidian Plugin Workshop
 
 ## Project Overview
 This workspace is structured for collaborative plugin development with AI partners like Claude Code or Cursor. It supports plugin ideation, scaffolding, testing, and publishing within a modular, markdown-native environment.
