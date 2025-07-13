@@ -11,7 +11,11 @@
     "lint": "eslint . --ext .ts",
     "docs:api": "typedoc",
     "docs:templates": "ts-node scripts/generate-docs.ts",
-    "docs": "npm run docs:api && npm run docs:templates"
+    "docs": "npm run docs:api && npm run docs:templates",
+    "create-plugin": "ts-node scripts/create-plugin.ts",
+    "build-plugin": "ts-node scripts/build-plugin.ts",
+    "build-plugins": "ts-node scripts/build-plugin.ts build",
+    "list-plugins": "ts-node scripts/build-plugin.ts list"
   },
   "keywords": [
     "obsidian",
