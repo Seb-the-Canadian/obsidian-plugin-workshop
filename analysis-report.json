@@ -1,0 +1,4589 @@
+{
+  "patterns": [
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.23554603854389722,
+      "occurrences": 11,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 70,
+          "column": 21
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 98,
+          "column": 18
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 125,
+          "column": 12
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 150,
+          "column": 12
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 174,
+          "column": 25
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 183,
+          "column": 21
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 240,
+          "column": 23
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 287,
+          "column": 25
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 288,
+          "column": 20
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 293,
+          "column": 17
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 299,
+          "column": 19
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload",
+        "Consider consolidating event handlers to reduce complexity"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.163265306122449,
+      "occurrences": 4,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 19,
+          "column": 31
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 44,
+          "column": 32
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 76,
+          "column": 14
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 104,
+          "column": 18
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "state-mutation",
+      "category": "state",
+      "confidence": 0.163265306122449,
+      "occurrences": 4,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 45,
+          "column": 5
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 48,
+          "column": 5
+        }
+      ],
+      "suggestions": [
+        "Consider using immutable state updates",
+        "Implement proper state validation"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.1,
+      "occurrences": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 127,
+          "column": 17
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.1,
+      "occurrences": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 21,
+          "column": 11
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "state-mutation",
+      "category": "state",
+      "confidence": 0.24822695035460995,
+      "occurrences": 7,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 21,
+          "column": 5
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 59,
+          "column": 5
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 66,
+          "column": 11
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 67,
+          "column": 11
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 90,
+          "column": 7
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 279,
+          "column": 5
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 280,
+          "column": 5
+        }
+      ],
+      "suggestions": [
+        "Consider using immutable state updates",
+        "Implement proper state validation"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.1,
+      "occurrences": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 18,
+          "column": 11
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "state-mutation",
+      "category": "state",
+      "confidence": 0.1,
+      "occurrences": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 18,
+          "column": 5
+        }
+      ],
+      "suggestions": [
+        "Consider using immutable state updates",
+        "Implement proper state validation"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.1,
+      "occurrences": 5,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 408,
+          "column": 18
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 458,
+          "column": 19
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 474,
+          "column": 19
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 501,
+          "column": 19
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 517,
+          "column": 19
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "event-listener",
+      "category": "event",
+      "confidence": 0.22624434389140272,
+      "occurrences": 5,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 13,
+          "column": 6
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 61,
+          "column": 19
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 104,
+          "column": 18
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 201,
+          "column": 14
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 204,
+          "column": 14
+        }
+      ],
+      "suggestions": [
+        "Consider using Obsidian's registerDomEvent for proper cleanup",
+        "Ensure event listeners are properly removed in onunload"
+      ]
+    },
+    {
+      "pattern": "state-mutation",
+      "category": "state",
+      "confidence": 0.5128205128205128,
+      "occurrences": 2,
+      "locations": [
+        {
+          "file": "tests/__mocks__/obsidian.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "file": "tests/__mocks__/obsidian.ts",
+          "line": 11,
+          "column": 5
+        }
+      ],
+      "suggestions": [
+        "Consider using immutable state updates",
+        "Implement proper state validation"
+      ]
+    }
+  ],
+  "stateAnalysis": [
+    {
+      "type": "component",
+      "variable": "findDocumentationFiles",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 41,
+          "context": "const docFiles = this.findDocumentationFiles(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "docFiles",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 41,
+          "context": "const docFiles = this.findDocumentationFiles(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "findSourceFiles",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 42,
+          "context": "const sourceFiles = this.findSourceFiles(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "sourceFiles",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 42,
+          "context": "const sourceFiles = this.findSourceFiles(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "file",
+      "accessPattern": "read",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 48,
+          "context": "for (const file of docFiles) {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 55,
+          "context": "for (const file of sourceFiles) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeDocFile",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 50,
+          "context": "const result = this.analyzeDocFile(file, pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "result",
+      "accessPattern": "write",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 50,
+          "context": "const result = this.analyzeDocFile(file, pluginPath);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 57,
+          "context": "const result = this.analyzeSourceDocumentation(file, pluginPath);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 129,
+          "context": "const result: DocAnalysisResult = {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 154,
+          "context": "const result: DocAnalysisResult = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "results",
+      "accessPattern": "readwrite",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 51,
+          "context": "this.results.push(result);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 58,
+          "context": "this.results.push(result);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 383,
+          "context": "const totalFiles = this.results.length;"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 384,
+          "context": "const averageCoverage = this.results.reduce((sum, r) => sum + r.coverage, 0) / totalFiles;"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 385,
+          "context": "const totalIssues = this.results.reduce((sum, r) => sum + r.issues.length, 0);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 386,
+          "context": "const highSeverityIssues = this.results.reduce((sum, r) =>"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 399,
+          "context": "this.results.forEach(result => {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 442,
+          "context": "fs.writeFileSync(reportPath, JSON.stringify(this.results, null, 2));"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeSourceDocumentation",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 57,
+          "context": "const result = this.analyzeSourceDocumentation(file, pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "outputResults",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 62,
+          "context": "this.outputResults(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "files",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 69,
+          "context": "const files: string[] = [];"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 97,
+          "context": "const files: string[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "docExtensions",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 70,
+          "context": "const docExtensions = ['.md', '.txt', '.rst'];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "traverse",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 72,
+          "context": "const traverse = (dir: string) => {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 100,
+          "context": "const traverse = (dir: string) => {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "items",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 73,
+          "context": "const items = fs.readdirSync(dir);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 101,
+          "context": "const items = fs.readdirSync(dir);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "item",
+      "accessPattern": "read",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 75,
+          "context": "for (const item of items) {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 103,
+          "context": "for (const item of items) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "fullPath",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 76,
+          "context": "const fullPath = path.join(dir, item);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 104,
+          "context": "const fullPath = path.join(dir, item);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stat",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 77,
+          "context": "const stat = fs.statSync(fullPath);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 105,
+          "context": "const stat = fs.statSync(fullPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "extensions",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 98,
+          "context": "const extensions = ['.ts', '.js', '.tsx', '.jsx'];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "content",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 125,
+          "context": "const content = fs.readFileSync(filePath, 'utf8');"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 150,
+          "context": "const content = fs.readFileSync(filePath, 'utf8');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "relativePath",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 126,
+          "context": "const relativePath = path.relative(pluginPath, filePath);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 151,
+          "context": "const relativePath = path.relative(pluginPath, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "extension",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 127,
+          "context": "const extension = path.extname(filePath);"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 152,
+          "context": "const extension = path.extname(filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeMarkdownFile",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 138,
+          "context": "this.analyzeMarkdownFile(content, result);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeTextFile",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 140,
+          "context": "this.analyzeTextFile(content, result);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeSourceFileDocumentation",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 162,
+          "context": "this.analyzeSourceFileDocumentation(content, result);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "lines",
+      "accessPattern": "write",
+      "frequency": 3,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 170,
+          "context": "const lines = content.split('\\n');"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 258,
+          "context": "const lines = content.split('\\n');"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 286,
+          "context": "const lines = content.split('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "coverage",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 171,
+          "context": "let coverage = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "essentialSections",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 174,
+          "context": "const essentialSections = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "foundSections",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 183,
+          "context": "const foundSections = essentialSections.filter(section => {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "regex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 184,
+          "context": "const regex = new RegExp(`^#+\\\\s*${section}`, 'im');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "linkRegex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 216,
+          "context": "const linkRegex = /\\[([^\\]]+)\\]\\(([^)]+)\\)/g;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "linkMatch",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 217,
+          "context": "let linkMatch;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "url",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 220,
+          "context": "const url = linkMatch[2];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "header",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 226,
+          "context": "const header = url.substring(1).toLowerCase().replace(/-/g, ' ');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "missingSections",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 240,
+          "context": "const missingSections = essentialSections.filter(section => !foundSections.includes(section));"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "wordCount",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 259,
+          "context": "const wordCount = content.split(/\\s+/).length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "documentedFunctions",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 287,
+          "context": "let documentedFunctions = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalFunctions",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 288,
+          "context": "let totalFunctions = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "documentedClasses",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 289,
+          "context": "let documentedClasses = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalClasses",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 290,
+          "context": "let totalClasses = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "functionRegex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 293,
+          "context": "const functionRegex = /^\\s*(export\\s+)?(async\\s+)?function\\s+\\w+|^\\s*(public|private|protected)\\s+.*?\\(/gm;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "classRegex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 294,
+          "context": "const classRegex = /^\\s*(export\\s+)?(abstract\\s+)?class\\s+\\w+/gm;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "jsdocRegex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 295,
+          "context": "const jsdocRegex = /\\/\\*\\*[\\s\\S]*?\\*\\//g;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "functionMatch",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 298,
+          "context": "let functionMatch;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "linesBefore",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 303,
+          "context": "const linesBefore = content.substring(0, functionMatch.index).split('\\n');"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 333,
+          "context": "const linesBefore = content.substring(0, classMatch.index).split('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "currentLine",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 304,
+          "context": "const currentLine = linesBefore.length;"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 334,
+          "context": "const currentLine = linesBefore.length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "hasDoc",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 307,
+          "context": "let hasDoc = false;"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 337,
+          "context": "let hasDoc = false;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "i",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 308,
+          "context": "for (let i = Math.max(0, currentLine - 5); i < currentLine; i++) {"
+        },
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 338,
+          "context": "for (let i = Math.max(0, currentLine - 5); i < currentLine; i++) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "classMatch",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 328,
+          "context": "let classMatch;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalItems",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 358,
+          "context": "const totalItems = totalFunctions + totalClasses;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "documentedItems",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 359,
+          "context": "const documentedItems = documentedFunctions + documentedClasses;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalFiles",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 383,
+          "context": "const totalFiles = this.results.length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "averageCoverage",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 384,
+          "context": "const averageCoverage = this.results.reduce((sum, r) => sum + r.coverage, 0) / totalFiles;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalIssues",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 385,
+          "context": "const totalIssues = this.results.reduce((sum, r) => sum + r.issues.length, 0);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "highSeverityIssues",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 386,
+          "context": "const highSeverityIssues = this.results.reduce((sum, r) =>"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "line",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 407,
+          "context": "const line = issue.line ? ` (line ${issue.line})` : '';"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "reportPath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 441,
+          "context": "const reportPath = path.join(pluginPath, 'docs-analysis-report.json');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "args",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 449,
+          "context": "const args = process.argv.slice(2);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "pluginPath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 450,
+          "context": "const pluginPath = args[0] || process.cwd();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "analyzer",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/docs-analyzer.ts",
+          "line": 456,
+          "context": "const analyzer = new DocsAnalyzer();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "defaultConfig",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 19,
+          "context": "const defaultConfig: AnalyzerConfig = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "rateLimitedAnalyzer",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 45,
+          "context": "this.rateLimitedAnalyzer = new RateLimitedAnalyzer(config.rateLimit);"
+        }
+      ],
+      "optimizations": [
+        "Consider using getter/setter methods for better encapsulation"
+      ]
+    },
+    {
+      "type": "component",
+      "variable": "patternDetector",
+      "accessPattern": "readwrite",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 46,
+          "context": "this.patternDetector = new PatternDetector();"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 80,
+          "context": "const patterns = this.patternDetector.analyzeCode(content, relativePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "stateAnalyzer",
+      "accessPattern": "readwrite",
+      "frequency": 3,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 47,
+          "context": "this.stateAnalyzer = new StateAnalyzer(config.stateAnalysis);"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 81,
+          "context": "const stateResults = this.stateAnalyzer.analyzeCode(content, relativePath);"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 91,
+          "context": "state: this.stateAnalyzer.getPerformanceMetrics(),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "eventPatternAnalyzer",
+      "accessPattern": "readwrite",
+      "frequency": 3,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 48,
+          "context": "this.eventPatternAnalyzer = new EventPatternAnalyzer();"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 82,
+          "context": "const eventResults = this.eventPatternAnalyzer.analyzeCode(content, relativePath);"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 92,
+          "context": "events: this.eventPatternAnalyzer.getPerformanceSummary(),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getSourceFiles",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 62,
+          "context": "const files = this.getSourceFiles(pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "files",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 62,
+          "context": "const files = this.getSourceFiles(pluginPath);"
+        },
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 103,
+          "context": "const files: string[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "analysisResults",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 65,
+          "context": "const analysisResults = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "file",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 73,
+          "context": "for (const file of files) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "content",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 76,
+          "context": "const content = fs.readFileSync(file, 'utf8');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "relativePath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 77,
+          "context": "const relativePath = path.relative(pluginPath, file);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "patterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 80,
+          "context": "const patterns = this.patternDetector.analyzeCode(content, relativePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stateResults",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 81,
+          "context": "const stateResults = this.stateAnalyzer.analyzeCode(content, relativePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "eventResults",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 82,
+          "context": "const eventResults = this.eventPatternAnalyzer.analyzeCode(content, relativePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "outputResults",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 96,
+          "context": "this.outputResults(analysisResults, pluginPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "extensions",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 104,
+          "context": "const extensions = ['.ts', '.js', '.tsx', '.jsx'];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "traverse",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 106,
+          "context": "const traverse = (dir: string) => {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "items",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 107,
+          "context": "const items = fs.readdirSync(dir);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "item",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 109,
+          "context": "for (const item of items) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "fullPath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 110,
+          "context": "const fullPath = path.join(dir, item);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stat",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 111,
+          "context": "const stat = fs.statSync(fullPath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "summarizePatterns",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 139,
+          "context": "const patternSummary = this.summarizePatterns(results.patterns);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "patternSummary",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 139,
+          "context": "const patternSummary = this.summarizePatterns(results.patterns);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stateMetrics",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 148,
+          "context": "const stateMetrics = results.performance.state;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "eventMetrics",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 159,
+          "context": "const eventMetrics = results.performance.events;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "generateRecommendations",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 168,
+          "context": "this.generateRecommendations(results);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "reportPath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 171,
+          "context": "const reportPath = path.join(pluginPath, 'analysis-report.json');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "summary",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 180,
+          "context": "const summary: Record<string, number> = {};"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "recommendations",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 193,
+          "context": "const recommendations: string[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "args",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 227,
+          "context": "const args = process.argv.slice(2);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "pluginPath",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 228,
+          "context": "const pluginPath = args[0] || process.cwd();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "analyzer",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": ".workshop-meta/plugin-analyzer.ts",
+          "line": 234,
+          "context": "const analyzer = new PluginAnalyzer();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "results",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 21,
+          "context": "const results: EventPatternResult[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "lines",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 22,
+          "context": "const lines = code.split('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "findEventHandlers",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 25,
+          "context": "const eventHandlers = this.findEventHandlers(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "eventHandlers",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 25,
+          "context": "const eventHandlers = this.findEventHandlers(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeEventHandler",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 29,
+          "context": "const analysis = this.analyzeEventHandler(handler, lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "analysis",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 29,
+          "context": "const analysis = this.analyzeEventHandler(handler, lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "eventPatterns",
+      "accessPattern": "readwrite",
+      "frequency": 5,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 32,
+          "context": "this.eventPatterns.set(`${filePath}:${handler.name}`, analysis);"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 55,
+          "context": "const eventPatterns = ["
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 316,
+          "context": "return new Map(this.eventPatterns);"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 328,
+          "context": "const patterns = Array.from(this.eventPatterns.values());"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 358,
+          "context": "this.eventPatterns.clear();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "handlers",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 48,
+          "context": "const handlers: Array<{"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "match",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 76,
+          "context": "let match;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "regex",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 77,
+          "context": "const regex = new RegExp(pattern.source, pattern.flags);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "findHandlerFunction",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 102,
+          "context": "const handlerFunction = this.findHandlerFunction(handler.name, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "handlerFunction",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 102,
+          "context": "const handlerFunction = this.findHandlerFunction(handler.name, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectIssues",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 108,
+          "context": "const issues = this.detectIssues(handlerFunction, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "issues",
+      "accessPattern": "readwrite",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 108,
+          "context": "const issues = this.detectIssues(handlerFunction, lines);"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 191,
+          "context": "const issues: Array<{"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzePerformance",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 109,
+          "context": "const performance = this.analyzePerformance(handlerFunction, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "performance",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 109,
+          "context": "const performance = this.analyzePerformance(handlerFunction, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "calculateFrequency",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 114,
+          "context": "frequency: this.calculateFrequency(handler.name, lines),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "functionPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 127,
+          "context": "const functionPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "i",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 134,
+          "context": "for (let i = 0; i < lines.length; i++) {"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 161,
+          "context": "for (let i = start; i < lines.length; i++) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "line",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 135,
+          "context": "const line = lines[i];"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 162,
+          "context": "const line = lines[i];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "pattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 137,
+          "context": "for (const pattern of functionPatterns) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "findFunctionEnd",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 139,
+          "context": "const end = this.findFunctionEnd(i, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "end",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 139,
+          "context": "const end = this.findFunctionEnd(i, lines);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "braceCount",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 158,
+          "context": "let braceCount = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "foundOpenBrace",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 159,
+          "context": "let foundOpenBrace = false;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "char",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 164,
+          "context": "for (const char of line) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "body",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 197,
+          "context": "const body = handlerFunction.body.join('\\n');"
+        },
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 275,
+          "context": "const body = handlerFunction.body.join('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "queryCount",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 226,
+          "context": "const queryCount = (body.match(/document\\.querySelector/g) || []).length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "complexity",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 278,
+          "context": "let complexity = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "baseTime",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 291,
+          "context": "const baseTime = 0.1;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "complexityMultiplier",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 292,
+          "context": "const complexityMultiplier = 0.5;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "estimatedTime",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 294,
+          "context": "const estimatedTime = baseTime + (complexity * complexityMultiplier);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "code",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 307,
+          "context": "const code = lines.join('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "occurrences",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 308,
+          "context": "const occurrences = (code.match(new RegExp(handlerName, 'g')) || []).length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "patterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 328,
+          "context": "const patterns = Array.from(this.eventPatterns.values());"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalHandlers",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 329,
+          "context": "const totalHandlers = patterns.length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "averageComplexity",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 340,
+          "context": "const averageComplexity = patterns.reduce((sum, p) => sum + p.performance.averageExecutionTime, 0) / totalHandlers;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "highRiskHandlers",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 341,
+          "context": "const highRiskHandlers = patterns.filter(p => p.performance.averageExecutionTime > 5).length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "memoryLeakRisk",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 342,
+          "context": "const memoryLeakRisk = patterns.filter(p =>"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "performanceData",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/EventPatternAnalyzer.ts",
+          "line": 359,
+          "context": "this.performanceData.clear();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "config",
+      "accessPattern": "readwrite",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 21,
+          "context": "this.config = config;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 32,
+          "context": "if (this.queue.length >= this.config.maxQueueSize) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 39,
+          "context": "priority: Math.max(0, Math.min(priority, this.config.priorityLevels - 1)),"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 71,
+          "context": "if (this.requestCount >= this.config.requestsPerSecond) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "queue",
+      "accessPattern": "readwrite",
+      "frequency": 11,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 32,
+          "context": "if (this.queue.length >= this.config.maxQueueSize) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 55,
+          "context": "if (this.processing || this.queue.length === 0) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 62,
+          "context": "while (this.queue.length > 0) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 79,
+          "context": "const item = this.queue.shift()!;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 153,
+          "context": "for (let i = 0; i < this.queue.length; i++) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 154,
+          "context": "if (item.priority > this.queue[i].priority) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 155,
+          "context": "this.queue.splice(i, 0, item);"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 162,
+          "context": "this.queue.push(item);"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 265,
+          "context": "queueLength: this.queue.length,"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 276,
+          "context": "this.queue.forEach(item => {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 279,
+          "context": "this.queue = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "item",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 37,
+          "context": "const item: QueueItem = {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 79,
+          "context": "const item = this.queue.shift()!;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "generateId",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 38,
+          "context": "id: id || this.generateId(),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "insertByPriority",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 46,
+          "context": "this.insertByPriority(item);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "processQueue",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 47,
+          "context": "this.processQueue();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "processing",
+      "accessPattern": "readwrite",
+      "frequency": 5,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 55,
+          "context": "if (this.processing || this.queue.length === 0) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 59,
+          "context": "this.processing = true;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 90,
+          "context": "this.processing = false;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 266,
+          "context": "processing: this.processing,"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 280,
+          "context": "this.processing = false;"
+        }
+      ],
+      "optimizations": [
+        "Consider using getter/setter methods for better encapsulation"
+      ]
+    },
+    {
+      "type": "local",
+      "variable": "now",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 64,
+          "context": "const now = Date.now();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "lastResetTime",
+      "accessPattern": "readwrite",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 65,
+          "context": "if (now - this.lastResetTime >= 1000) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 67,
+          "context": "this.lastResetTime = now;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 72,
+          "context": "const waitTime = 1000 - (now - this.lastResetTime);"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 268,
+          "context": "timeUntilReset: Math.max(0, 1000 - (Date.now() - this.lastResetTime)),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "requestCount",
+      "accessPattern": "readwrite",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 66,
+          "context": "this.requestCount = 0;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 71,
+          "context": "if (this.requestCount >= this.config.requestsPerSecond) {"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 80,
+          "context": "this.requestCount++;"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 267,
+          "context": "requestCount: this.requestCount,"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "waitTime",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 72,
+          "context": "const waitTime = 1000 - (now - this.lastResetTime);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "sleep",
+      "accessPattern": "read",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 74,
+          "context": "await this.sleep(waitTime);"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 99,
+          "context": "await this.sleep(100);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeItem",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 83,
+          "context": "const result = await this.analyzeItem(item);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "result",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 83,
+          "context": "const result = await this.analyzeItem(item);"
+        },
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 101,
+          "context": "const result: AnalyzerResult = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "determineAnalysisType",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 103,
+          "context": "type: this.determineAnalysisType(item.data),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "performAnalysis",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 105,
+          "context": "data: await this.performAnalysis(item.data),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "calculateConfidence",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 108,
+          "context": "confidence: this.calculateConfidence(item.data),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "categorizeData",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 109,
+          "context": "category: this.categorizeData(item.data),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "calculateComplexity",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 136,
+          "context": "complexity: this.calculateComplexity(data),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "inserted",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 151,
+          "context": "let inserted = false;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "i",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 153,
+          "context": "for (let i = 0; i < this.queue.length; i++) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "complexity",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 229,
+          "context": "let complexity = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "key",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/RateLimitedAnalyzer.ts",
+          "line": 234,
+          "context": "for (const key in obj) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "config",
+      "accessPattern": "readwrite",
+      "frequency": 5,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 18,
+          "context": "this.config = config;"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 25,
+          "context": "if (!this.config.enabled) {"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 33,
+          "context": "if (this.config.trackGlobalState) {"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 38,
+          "context": "if (this.config.trackLocalState) {"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 288,
+          "context": "if (!this.config.performanceMetrics) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "results",
+      "accessPattern": "write",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 29,
+          "context": "const results: StateAnalysisResult[] = [];"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 54,
+          "context": "const results: StateAnalysisResult[] = [];"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 122,
+          "context": "const results: StateAnalysisResult[] = [];"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 298,
+          "context": "const results = Array.from(this.stateAccesses.values());"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "lines",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 30,
+          "context": "const lines = code.split('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeGlobalState",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 34,
+          "context": "results.push(...this.analyzeGlobalState(lines, filePath));"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "analyzeLocalState",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 39,
+          "context": "results.push(...this.analyzeLocalState(lines, filePath));"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "stateAccesses",
+      "accessPattern": "readwrite",
+      "frequency": 6,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 44,
+          "context": "this.stateAccesses.set(`${filePath}:${result.variable}`, result);"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 298,
+          "context": "const results = Array.from(this.stateAccesses.values());"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 318,
+          "context": "return Array.from(this.stateAccesses.values())"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 330,
+          "context": "return Array.from(this.stateAccesses.values()).map(result => ({"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 341,
+          "context": "this.stateAccesses.clear();"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 348,
+          "context": "return new Map(this.stateAccesses);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "globalPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 55,
+          "context": "const globalPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stateVariables",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 62,
+          "context": "const stateVariables = new Map<string, {"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 130,
+          "context": "const stateVariables = new Map<string, {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "matches",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 70,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 139,
+          "context": "const matches = line.match(pattern);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "variable",
+      "accessPattern": "readwrite",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 73,
+          "context": "const variable = match.split('.')[1];"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 142,
+          "context": "let variable: string;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "state",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 82,
+          "context": "const state = stateVariables.get(variable)!;"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 161,
+          "context": "const state = stateVariables.get(variable)!;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "isWrite",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 83,
+          "context": "const isWrite = line.includes('=') && line.indexOf('=') > line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 162,
+          "context": "const isWrite = line.includes('=') && line.indexOf('=') > line.indexOf(match);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "determineAccessPattern",
+      "accessPattern": "read",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 102,
+          "context": "const accessPattern = this.determineAccessPattern(state.reads, state.writes);"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 181,
+          "context": "const accessPattern = this.determineAccessPattern(state.reads, state.writes);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "accessPattern",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 102,
+          "context": "const accessPattern = this.determineAccessPattern(state.reads, state.writes);"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 181,
+          "context": "const accessPattern = this.determineAccessPattern(state.reads, state.writes);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "frequency",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 103,
+          "context": "const frequency = state.reads + state.writes;"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 182,
+          "context": "const frequency = state.reads + state.writes;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getGlobalStateOptimizations",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 111,
+          "context": "optimizations: this.getGlobalStateOptimizations(state.reads, state.writes, frequency),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "localPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 123,
+          "context": "const localPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "isThisProperty",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 143,
+          "context": "let isThisProperty = false;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getLocalStateOptimizations",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 190,
+          "context": "optimizations: this.getLocalStateOptimizations("
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "optimizations",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 223,
+          "context": "const optimizations: string[] = [];"
+        },
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 253,
+          "context": "const optimizations: string[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "totalStateVariables",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 299,
+          "context": "const totalStateVariables = results.length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "highFrequencyAccesses",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 300,
+          "context": "const highFrequencyAccesses = results.filter(r => r.frequency > 15).length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "readOnlyVariables",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 301,
+          "context": "const readOnlyVariables = results.filter(r => r.accessPattern === 'read').length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "writeHeavyVariables",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 302,
+          "context": "const writeHeavyVariables = results.filter(r => r.accessPattern === 'write').length;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "averageAccessFrequency",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/StateAnalyzer.ts",
+          "line": 303,
+          "context": "const averageAccessFrequency = results.reduce((sum, r) => sum + r.frequency, 0) / totalStateVariables;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "results",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 30,
+          "context": "const results: PatternDetectionResult[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "lines",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 33,
+          "context": "const lines = code.split('\\n');"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "supportedPatterns",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 36,
+          "context": "for (const patternType of this.supportedPatterns) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "patternType",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 36,
+          "context": "for (const patternType of this.supportedPatterns) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 37,
+          "context": "const detection = this.detectPattern(patternType, lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "detection",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 37,
+          "context": "const detection = this.detectPattern(patternType, lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectEventListenerPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 56,
+          "context": "return this.detectEventListenerPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectStateMutationPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 58,
+          "context": "return this.detectStateMutationPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectLifecycleHookPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 60,
+          "context": "return this.detectLifecycleHookPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectApiCallPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 62,
+          "context": "return this.detectApiCallPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectUiUpdatePattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 64,
+          "context": "return this.detectUiUpdatePattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectObserverPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 66,
+          "context": "return this.detectObserverPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectCommandPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 68,
+          "context": "return this.detectCommandPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "detectSingletonPattern",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 70,
+          "context": "return this.detectSingletonPattern(lines, filePath);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "eventPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 83,
+          "context": "const eventPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "locations",
+      "accessPattern": "write",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 90,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 136,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 183,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 230,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 277,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 323,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 369,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 414,
+          "context": "const locations: Array<{ file: string; line: number; column: number }> = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "occurrences",
+      "accessPattern": "write",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 91,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 137,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 184,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 231,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 278,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 324,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 370,
+          "context": "let occurrences = 0;"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 415,
+          "context": "let occurrences = 0;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "matches",
+      "accessPattern": "write",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 95,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 141,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 188,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 235,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 282,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 328,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 374,
+          "context": "const matches = line.match(pattern);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 419,
+          "context": "const matches = line.match(pattern);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "column",
+      "accessPattern": "write",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 99,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 145,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 192,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 239,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 286,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 332,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 378,
+          "context": "const column = line.indexOf(match);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 423,
+          "context": "const column = line.indexOf(match);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "calculateConfidence",
+      "accessPattern": "read",
+      "frequency": 8,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 115,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 161,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 208,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 255,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 302,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 348,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 394,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 439,
+          "context": "confidence: this.calculateConfidence(occurrences, lines.length),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getEventListenerSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 118,
+          "context": "suggestions: this.getEventListenerSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "statePatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 129,
+          "context": "const statePatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getStateMutationSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 164,
+          "context": "suggestions: this.getStateMutationSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "lifecyclePatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 175,
+          "context": "const lifecyclePatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getLifecycleSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 211,
+          "context": "suggestions: this.getLifecycleSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "apiPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 222,
+          "context": "const apiPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getApiCallSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 258,
+          "context": "suggestions: this.getApiCallSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "uiPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 269,
+          "context": "const uiPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getUiUpdateSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 305,
+          "context": "suggestions: this.getUiUpdateSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "observerPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 316,
+          "context": "const observerPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getObserverSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 351,
+          "context": "suggestions: this.getObserverSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "commandPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 362,
+          "context": "const commandPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getCommandSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 397,
+          "context": "suggestions: this.getCommandSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "singletonPatterns",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 408,
+          "context": "const singletonPatterns = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "getSingletonSuggestions",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 442,
+          "context": "suggestions: this.getSingletonSuggestions(occurrences),"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "density",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 450,
+          "context": "const density = occurrences / totalLines;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "suggestions",
+      "accessPattern": "write",
+      "frequency": 4,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 458,
+          "context": "const suggestions = ["
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 474,
+          "context": "const suggestions = ["
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 501,
+          "context": "const suggestions = ["
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 517,
+          "context": "const suggestions = ["
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "patterns",
+      "accessPattern": "read",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 566,
+          "context": "return new Map(this.patterns);"
+        },
+        {
+          "file": "src/analyzers/patterns/PatternDetector.ts",
+          "line": 573,
+          "context": "this.patterns.clear();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "analyzer",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 9,
+          "context": "let analyzer: RateLimitedAnalyzer;"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "config",
+      "accessPattern": "read",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 10,
+          "context": "let config: AnalyzerConfig['rateLimit'];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "testData",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 35,
+          "context": "const testData = { test: 'data' };"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "result",
+      "accessPattern": "write",
+      "frequency": 7,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 36,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(testData);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 85,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(testText);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 94,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(testObject);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 171,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(eventData);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 178,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(patternData);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 185,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(stateData);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 192,
+          "context": "const result = await analyzer.enqueue<AnalyzerResult>(docData);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "promises",
+      "accessPattern": "write",
+      "frequency": 3,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 45,
+          "context": "const promises = ["
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 69,
+          "context": "const promises: Promise<AnalyzerResult | Error>[] = [];"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 114,
+          "context": "const promises: Promise<AnalyzerResult>[] = [];"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "results",
+      "accessPattern": "write",
+      "frequency": 3,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 51,
+          "context": "const results = await Promise.all(promises);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 74,
+          "context": "const results = await Promise.all(promises);"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 154,
+          "context": "const results = await Promise.all([promise1, promise2]);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "smallConfig",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 61,
+          "context": "const smallConfig = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "smallAnalyzer",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 66,
+          "context": "const smallAnalyzer = new RateLimitedAnalyzer(smallConfig);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "i",
+      "accessPattern": "write",
+      "frequency": 2,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 70,
+          "context": "for (let i = 0; i < 3; i++) {"
+        },
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 115,
+          "context": "for (let i = 0; i < 5; i++) {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "errors",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 77,
+          "context": "const errors = results.filter((r): r is Error => r instanceof Error);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "testText",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 84,
+          "context": "const testText = 'This is a test string';"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "testObject",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 93,
+          "context": "const testObject = { key1: 'value1', key2: 'value2' };"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "fastConfig",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 104,
+          "context": "const fastConfig = {"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "fastAnalyzer",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 109,
+          "context": "const fastAnalyzer = new RateLimitedAnalyzer(fastConfig);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "startTime",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 111,
+          "context": "const startTime = Date.now();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "endTime",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 120,
+          "context": "const endTime = Date.now();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "status",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 131,
+          "context": "const status = analyzer.getStatus();"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "promise1",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 148,
+          "context": "const promise1 = analyzer.enqueue<AnalyzerResult>({ data: 'test1' }).catch(e => e);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "promise2",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 149,
+          "context": "const promise2 = analyzer.enqueue<AnalyzerResult>({ data: 'test2' }).catch(e => e);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "eventData",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 170,
+          "context": "const eventData = 'addEventListener event handler';"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "patternData",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 177,
+          "context": "const patternData = { type: 'pattern', data: 'test' };"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "stateData",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 184,
+          "context": "const stateData = { type: 'state', data: 'test' };"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "docData",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 191,
+          "context": "const docData = 'This is documentation content';"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "shortString",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 200,
+          "context": "const shortString = 'short';"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "longString",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 201,
+          "context": "const longString = 'a'.repeat(1000);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "shortResult",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 203,
+          "context": "const shortResult = await analyzer.enqueue<AnalyzerResult>(shortString);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "longResult",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 204,
+          "context": "const longResult = await analyzer.enqueue<AnalyzerResult>(longString);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "smallObject",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 211,
+          "context": "const smallObject = { key: 'value' };"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "largeObject",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 212,
+          "context": "const largeObject = Object.fromEntries(Array(20).fill(0).map((_, i) => [`key${i}`, `value${i}`]));"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "smallResult",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 214,
+          "context": "const smallResult = await analyzer.enqueue<AnalyzerResult>(smallObject);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "local",
+      "variable": "largeResult",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/RateLimitedAnalyzer.test.ts",
+          "line": 215,
+          "context": "const largeResult = await analyzer.enqueue<AnalyzerResult>(largeObject);"
+        }
+      ],
+      "optimizations": []
+    },
+    {
+      "type": "component",
+      "variable": "app",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/__mocks__/obsidian.ts",
+          "line": 10,
+          "context": "this.app = app;"
+        }
+      ],
+      "optimizations": [
+        "Consider using getter/setter methods for better encapsulation"
+      ]
+    },
+    {
+      "type": "component",
+      "variable": "manifest",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/__mocks__/obsidian.ts",
+          "line": 11,
+          "context": "this.manifest = manifest;"
+        }
+      ],
+      "optimizations": [
+        "Consider using getter/setter methods for better encapsulation"
+      ]
+    },
+    {
+      "type": "global",
+      "variable": "fetch",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/setup.ts",
+          "line": 20,
+          "context": "global.fetch = jest.fn();"
+        }
+      ],
+      "optimizations": [
+        "High write frequency detected - consider batching updates",
+        "Consider using a state management pattern (Redux, Zustand, etc.)"
+      ]
+    },
+    {
+      "type": "local",
+      "variable": "originalWarn",
+      "accessPattern": "write",
+      "frequency": 1,
+      "locations": [
+        {
+          "file": "tests/setup.ts",
+          "line": 11,
+          "context": "const originalWarn = console.warn;"
+        }
+      ],
+      "optimizations": []
+    }
+  ],
+  "eventPatterns": [],
+  "performance": {
+    "state": {
+      "totalStateVariables": 252,
+      "highFrequencyAccesses": 0,
+      "readOnlyVariables": 70,
+      "writeHeavyVariables": 168,
+      "averageAccessFrequency": 1.54
+    },
+    "events": {
+      "totalHandlers": 0,
+      "averageComplexity": 0,
+      "highRiskHandlers": 0,
+      "memoryLeakRisk": 0
+    }
+  }
+}

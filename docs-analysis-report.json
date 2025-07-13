@@ -1,0 +1,272 @@
+[
+  {
+    "file": "CHANGELOG.md",
+    "type": "markdown",
+    "coverage": 0,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "No code examples found",
+        "severity": "medium"
+      }
+    ],
+    "suggestions": [
+      "Add sections for: installation, usage, features, configuration, api, examples",
+      "Consider expanding documentation with more detailed explanations",
+      "Add code examples to illustrate usage"
+    ]
+  },
+  {
+    "file": "CONTRIBUTING.md",
+    "type": "markdown",
+    "coverage": 0,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "No code examples found",
+        "severity": "medium"
+      }
+    ],
+    "suggestions": [
+      "Add sections for: installation, usage, features, configuration, api, examples",
+      "Consider expanding documentation with more detailed explanations",
+      "Add code examples to illustrate usage"
+    ]
+  },
+  {
+    "file": "README.md",
+    "type": "markdown",
+    "coverage": 0,
+    "issues": [],
+    "suggestions": [
+      "Add sections for: installation, usage, features, configuration, api, examples",
+      "Consider expanding documentation with more detailed explanations"
+    ]
+  },
+  {
+    "file": ".workshop-meta/docs-analyzer.ts",
+    "type": "typescript",
+    "coverage": 81.81818181818183,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 448 lacks documentation",
+        "line": 448,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 25 lacks documentation",
+        "line": 25,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": ".workshop-meta/plugin-analyzer.ts",
+    "type": "typescript",
+    "coverage": 71.42857142857143,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 226 lacks documentation",
+        "line": 226,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 37 lacks documentation",
+        "line": 37,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": "jest.config.js",
+    "type": "jsdoc",
+    "coverage": 0,
+    "issues": [],
+    "suggestions": [
+      "Add JSDoc comments to public functions and classes"
+    ]
+  },
+  {
+    "file": "src/analyzers/EventPatternAnalyzer.ts",
+    "type": "typescript",
+    "coverage": 78.57142857142857,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 14 lacks documentation",
+        "line": 14,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Function at line 15 lacks documentation",
+        "line": 15,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 12 lacks documentation",
+        "line": 12,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": "src/analyzers/RateLimitedAnalyzer.ts",
+    "type": "typescript",
+    "coverage": 81.25,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 17 lacks documentation",
+        "line": 17,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Function at line 230 lacks documentation",
+        "line": 230,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 12 lacks documentation",
+        "line": 12,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": "src/analyzers/StateAnalyzer.ts",
+    "type": "typescript",
+    "coverage": 84.61538461538461,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 14 lacks documentation",
+        "line": 14,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 12 lacks documentation",
+        "line": 12,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": "src/analyzers/patterns/PatternDetector.ts",
+    "type": "typescript",
+    "coverage": 91.30434782608695,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Function at line 14 lacks documentation",
+        "line": 14,
+        "severity": "medium"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 12 lacks documentation",
+        "line": 12,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "All classes should have documentation"
+    ]
+  },
+  {
+    "file": "src/types/index.ts",
+    "type": "typescript",
+    "coverage": 0,
+    "issues": [],
+    "suggestions": [
+      "Add JSDoc comments to public functions and classes"
+    ]
+  },
+  {
+    "file": "tests/RateLimitedAnalyzer.test.ts",
+    "type": "typescript",
+    "coverage": 0,
+    "issues": [],
+    "suggestions": [
+      "Add JSDoc comments to public functions and classes"
+    ]
+  },
+  {
+    "file": "tests/__mocks__/obsidian.ts",
+    "type": "typescript",
+    "coverage": 14.285714285714285,
+    "issues": [
+      {
+        "type": "missing",
+        "description": "Class at line 14 lacks documentation",
+        "line": 14,
+        "severity": "high"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 20 lacks documentation",
+        "line": 20,
+        "severity": "high"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 24 lacks documentation",
+        "line": 24,
+        "severity": "high"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 28 lacks documentation",
+        "line": 28,
+        "severity": "high"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 32 lacks documentation",
+        "line": 32,
+        "severity": "high"
+      },
+      {
+        "type": "missing",
+        "description": "Class at line 36 lacks documentation",
+        "line": 36,
+        "severity": "high"
+      }
+    ],
+    "suggestions": [
+      "Add JSDoc comments to public functions and classes"
+    ]
+  },
+  {
+    "file": "tests/setup.ts",
+    "type": "typescript",
+    "coverage": 0,
+    "issues": [],
+    "suggestions": [
+      "Add JSDoc comments to public functions and classes"
+    ]
+  }
+]
