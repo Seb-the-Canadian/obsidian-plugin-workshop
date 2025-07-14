@@ -32,9 +32,7 @@ export class RateLimitedAnalyzer {
   ): Promise<T> {
     return new Promise((resolve, reject) => {
       // Check total pending items (queue + currently processing)
-      const totalPending = this.queue.length + (this.processing ? 1 : 0);
-      
-      if (totalPending >= this.config.maxQueueSize) {
+      if (this.pendingCount >= this.config.maxQueueSize) {
         // Use setTimeout to make this asynchronous like the other rejections
         setTimeout(() => {
           reject(new Error('Queue is full. Cannot add more items.'));
