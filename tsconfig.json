@@ -24,8 +24,7 @@
     }
   },
   "include": [
-    "src/**/*",
-    ".workshop-meta/**/*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
